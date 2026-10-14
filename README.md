@@ -48,7 +48,11 @@ dsh plugin --profile web add @deepwhale-cn/dsh-algorithm-filing
 npx @deepwhale-cn/dsh-algorithm-filing
 ```
 
-![dsh-algorithm-filing 的检查报告示例](https://www.deepwhale.org.cn/plugin-assets/dsh-algorithm-filing/report.png)
+![dsh-algorithm-filing 检查报告示例](https://www.deepwhale.org.cn/plugin-assets/dsh-algorithm-filing/report.png)
+
+![dsh-algorithm-filing 演示模式输出](https://www.deepwhale.org.cn/plugin-assets/dsh-algorithm-filing/demo.png)
+
+![dsh-algorithm-filing 规则与依据](https://www.deepwhale.org.cn/plugin-assets/dsh-algorithm-filing/rules.png)
 
 ## 用法
 
