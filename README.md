@@ -48,6 +48,8 @@ dsh plugin --profile web add @deepwhale-cn/dsh-algorithm-filing
 npx @deepwhale-cn/dsh-algorithm-filing
 ```
 
+![dsh-algorithm-filing 的检查报告示例](https://raw.githubusercontent.com/feely0208/dsh-algorithm-filing/main/docs/report.png)
+
 ## 用法
 
 ```bash
