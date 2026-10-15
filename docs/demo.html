@@ -1,0 +1,65 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8">
+<style>
+  * { box-sizing: border-box; }
+  body { margin:0; background:#0d0f13; display:flex; justify-content:center;
+         align-items:flex-start; padding:22px; font-family:-apple-system,"PingFang SC",
+         "Helvetica Neue",sans-serif; }
+  .win { width:1180px; border-radius:11px; overflow:hidden;
+          box-shadow:0 14px 44px rgba(0,0,0,.55); }
+  .bar { background:#2a2d34; padding:11px 15px; display:flex; align-items:center; gap:9px; }
+  .dot { width:12px; height:12px; border-radius:50%; }
+  .t { margin-left:11px; color:#7a8290; font-size:13px; letter-spacing:.02em; }
+  .term { background:#1b1d22; padding:20px 22px 24px; font-family:"SF Mono",Menlo,Consolas,
+           "PingFang SC",monospace; font-size:13.5px; line-height:1.72; }
+  .cmd { color:#5ee08a; margin-bottom:13px; font-size:13.5px; }
+  .cmd b { color:#fff; font-weight:600; }
+  .l { white-space:pre-wrap; word-break:break-word; }
+</style></head><body>
+  <div class="win">
+    <div class="bar">
+      <span class="dot" style="background:#ff5f57"></span>
+      <span class="dot" style="background:#febc2e"></span>
+      <span class="dot" style="background:#28c840"></span>
+      <span class="t">dsh-algorithm-filing · demo</span>
+    </div>
+    <div class="term">
+      <div class="cmd">$ <b>dsh-algorithm-filing --demo</b></div>
+      <div class="l"><span style="color:#7a8290">&nbsp;</span></div>
+<div class="l"><span style="color:#d8dee9">  【演示模式】使用内置样本，不是你的真实项目。</span></div>
+<div class="l"><span style="color:#7a8290">&nbsp;</span></div>
+<div class="l"><span style="color:#7a8290">&nbsp;</span></div>
+<div class="l"><span style="color:#d8dee9">  深鲸守护 · 算法备案与告知 v0.1.0</span></div>
+<div class="l"><span style="color:#d8dee9">  ──────────────────────────────────────────────────────────────────</span></div>
+<div class="l"><span style="color:#d8dee9">  扫描范围   内置演示样本 · 故意有问题的项目</span></div>
+<div class="l"><span style="color:#d8dee9">             2 个文件 · 0 个目录已跳过</span></div>
+<div class="l"><span style="color:#d8dee9">  检查规则   4/4 条</span></div>
+<div class="l"><span style="color:#ffd166">  命中       4 条</span></div>
+<div class="l"><span style="color:#7a8290">&nbsp;</span></div>
+<div class="l"><span style="color:#ff6b6b">  【高】1 条</span></div>
+<div class="l"><span style="color:#7a8290">    · 有推荐算法，但找不到关闭算法推荐的选项</span></div>
+<div class="l"><span style="color:#d8dee9">      位置  **/*.js</span></div>
+<div class="l"><span style="color:#7a8290">      证据  已检查 1 个文件，均未提到</span></div>
+<div class="l"><span style="color:#7a8290">      依据  《互联网信息服务算法推荐管理规定》第十七条 —— 算法推荐服务提供者应当向用户提供选择或者删除用于针对其个人特征的标签的功能，提供便捷的关闭算法推荐服务的选项。用户选择关闭算法推荐服务的，应当立即停止提供相关服务</span></div>
+<div class="l"><span style="color:#d8dee9">      建议  项目里有推荐/个性化算法，但代码里找不到「关闭算法推荐」的入口。**这是第十七条的硬要求**：必须提供便捷的关闭选项，且用户关闭后**应立即停止**（不是「记下偏好但照推」）。建议：设置页放一个开关，关闭后推荐流退化为时间序或热门。</span></div>
+<div class="l"><span style="color:#7a8290">&nbsp;</span></div>
+<div class="l"><span style="color:#ffd166">  【中】3 条</span></div>
+<div class="l"><span style="color:#7a8290">    · 有推荐算法，但找不到算法推荐服务说明</span></div>
+<div class="l"><span style="color:#d8dee9">      位置  README.md</span></div>
+<div class="l"><span style="color:#7a8290">      证据  以下文件都不存在：README.md / docs/*.md / docs/**/*.md …</span></div>
+<div class="l"><span style="color:#7a8290">      依据  《互联网信息服务算法推荐管理规定》第十六条 —— 算法推荐服务提供者应当以显著方式告知用户其提供算法推荐服务的情况，并以适当方式公示算法推荐服务的基本原理、目的意图和主要运行机制</span></div>
+<div class="l"><span style="color:#d8dee9">      建议  有推荐算法，但找不到对用户的**告知与公示**（算法推荐服务说明）。第十六条要求：① 显著方式告知用户；② 公示基本原理、目的意图、主要运行机制。实践中通常是一个「推荐说明」页面或在设置里说明「为什么给你看这些」。</span></div>
+<div class="l"><span style="color:#7a8290">    · 有推荐算法，但找不到算法备案号</span></div>
+<div class="l"><span style="color:#d8dee9">      位置  **/*.html</span></div>
+<div class="l"><span style="color:#7a8290">      证据  已检查 1 个文件，均未提到</span></div>
+<div class="l"><span style="color:#7a8290">      依据  《互联网信息服务算法推荐管理规定》第二十四条 —— 具有舆论属性或者社会动员能力的算法推荐服务提供者，应当在提供服务之日起十个工作日内，通过互联网信息服务算法备案系统填报服务提供者的名称、服务形式、应用领域、算法类型等信息，履行备案手续</span></div>
+<div class="l"><span style="color:#d8dee9">      建议  有推荐算法，但代码里找不到算法备案号的展示。**注意适用范围**：只有「具有舆论属性或社会动员能力」的服务才强制备案（资讯、社交、直播、热搜类）。如果你们属于这类，备案号应在服务页面显著位置展示。如果只是电商推荐，可能不需要 —— 报出来请自行确认适用范围。</span></div>
+<div class="l"><span style="color:#7a8290">    · 生成式内容找不到 AI 生成标识</span></div>
+<div class="l"><span style="color:#d8dee9">      位置  **/*.js</span></div>
+<div class="l"><span style="color:#7a8290">      证据  已检查 1 个文件，均未提到</span></div>
+<div class="l"><span style="color:#7a8290">      依据  《互联网信息服务深度合成管理规定》第十七条 —— 深度合成服务提供者提供生成或者显著改变信息内容功能的，应当进行显著标识；《生成式人工智能服务管理暂行办法》第十二条 —— 应按照《互联网信息服务深度合成管理规定》对图片、视频等生成内容进行标识</span></div>
+<div class="l"><span style="color:#d8dee9">      建议  项目有 AI 生成内容（文生图、文生视频、AI 写作等），但找不到「AI 生成」的标识实现。深度合成规定要求**显著标识** —— 实践中是在生成内容上加角标或元数据。这是可执行的合规项，也是平台审核的常见要求。</span></div>
+<div class="l"><span style="color:#7a8290">&nbsp;</span></div>
+<div class="l"><span style="color:#d8dee9">  ──────────────────────────────────────────────────────────────────</span></div>
+    </div>
+  </div>
+</body></html>
