@@ -1,5 +1,7 @@
 # @deepwhale-cn/dsh-algorithm-filing
 
+[![dshfind 收录](https://dshfind.com/api/badge/feely0208/dsh-algorithm-filing?lang=zh)](https://dshfind.com/zh/plugins/feely0208/dsh-algorithm-filing)
+
 **算法备案与告知** —— 查算法推荐服务有没有**关闭选项**、告知、备案。
 
 ## 不装它会怎样
